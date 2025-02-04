@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'GreatVibes';
+    src:url('fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AmaticSC';
+    src: url('fonts/AmaticSC-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url('fonts/Lobster-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Myfont';
+    src: url('fonts/Myfont-Regular.ttf') format('truetype');
+}
+
+body{
+    background-color: #D8BFD8;
+}
+
+.container{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gent{
+    font-family: 'GreatVibes';
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.gent_text{
+    text-align: right;
+}
+
+.gr_bk{
+    font-family: 'AmaticSC';
+}
+
+.pf{
+    font-family: 'Lobster';
+}
+
+.gr_text{
+    text-align: center;
+}
+
+.pf_text{
+    text-align: left;
+    font-family: 'Myfont';
+    font-weight: bold;
+    font-size: 26px;
+}
+
+img{
+    width: 475px;
+    height: 320px;
+    border-radius: 15px;
+}
+
+table{
+    margin: 20px auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th, td{
+    border: 3px solid black;
+}
