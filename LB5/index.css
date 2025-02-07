@@ -21,7 +21,6 @@ body{
 
 .container{
     display: flex;
-    align-items: stretch;
     flex-direction: column;
     text-align: center;
     width: 1440px;
