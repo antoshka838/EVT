@@ -1,0 +1,52 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  header {
+    background: rgb(52, 206, 142);
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(16, 233, 215, 0.178);
+  }
+
+.flex-element1{
+  display: flex;
+}
+
+.flex-element2{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container-1{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-element3{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-element4, .flex-element5{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+}
+  
+  
