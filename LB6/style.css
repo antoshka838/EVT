@@ -43,13 +43,11 @@ a {
   background-color: green;
 }
 
-/* Анимация вибрации */
 @keyframes shake {
   0% { transform: translateX(-5px); }
   100% { transform: translateX(5px); }
 }
 
-/* Анимация ссылки */
 .animated-link {
   font-size: 20px;
   text-decoration: none;
@@ -77,7 +75,6 @@ a {
   left: 0;
 }
 
-/* Анимация падения мяча */
 .ball {
   width: 50px;
   height: 50px;
