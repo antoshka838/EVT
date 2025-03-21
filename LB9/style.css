@@ -1,0 +1,70 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  header {
+    background: rgb(52, 206, 142);
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(16, 233, 215, 0.178);
+  }
+
+
+  @media(min-width: 1400px)
+  {
+  .block1{
+    display: flex;
+  }
+
+  .block2{
+    display: flex;
+  }
+
+  .block3{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .block3 article{
+    flex: 1;
+  }
+  }
+
+  @media (max-width: 1399px) and (min-width:700px){
+    .block2{
+      display: flex;
+    }
+  
+    .block3{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .block3 article{
+      flex: 1 calc(50% - 40px);
+    }
+  }
+
+  @media (max-width: 699px) {
+    .adaptive{
+      display: flex;
+      flex-direction: column;
+    }
+  }
