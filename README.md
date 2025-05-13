@@ -20,13 +20,13 @@
 
 * Python 
 * Java
-* JavaScrypt
+* JavaScript
 * SQL
 * Владения английском на уровне (но не высоком, всего лишь B2)
 
 ## Пример кода 
 
-```javascrypt
+```javascript
 function bubbleSort(arr) {
   const n = arr.length;
   let swapped;
