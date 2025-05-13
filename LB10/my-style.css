@@ -1,0 +1,18 @@
+header{
+    position: fixed;
+    top: 0%;
+    background-color: #e67e22;
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #e67e22;
+    width: 100%;
+}
+
+.wrapper {
+	max-width: 100% !important;
+	text-align: center;
+}
